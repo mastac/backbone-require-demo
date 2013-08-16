@@ -1,1 +1,0 @@
-define(["jquery","underscore","backbone","text!templates/actionbar/actionbarTemplate.html"],function(e,t,n,r){var i=n.View.extend({el:e("#actionbar"),initialize:function(){var e=this},render:function(){this.$el.html(r)}});return i});
